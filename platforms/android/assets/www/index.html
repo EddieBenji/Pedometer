@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/acelerometer.js"></script>
+
+    <title>Accelerometer</title>
+</head>
+<!--onload="onLoad();"-->
+<body>
+<div class="app">
+    <h1>Pedometer</h1>
+
+    <p>Datos del acelerometro:</p>
+
+    <div id="data" style="display: none;">
+        <strong>Pasos:</strong>
+
+        <p id="accelerometer"></p>
+    </div>
+    <button onclick="startWatch();">Start Watch</button>
+    <button onclick="stopWatch();">Stop Watch</button>
+
+</div>
+</body>
+</html>
+
+
